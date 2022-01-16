@@ -388,15 +388,15 @@ break
 *㐱 instagram*
 *㐱  owner*
 ⟥──────────⟤㒱
-*㐱 donasi *
+*㐱 donasi*
 *㐱 sewa <untuk sewa bot>*
 ⟥───────⟤㒱
 ➥ Grup menu
-*㐱 welcome on/off *
+*㐱 welcome on/off*
 ⟥───────────⟤㒱
 ➥ownermenu
-*♕ self * 
-*♕ public *
+*♕ self*
+*♕ public*
 *♕ bc (broadcast)*
 `
     zee.sendMessage(from, { contentText: menu, footerText: '➥ ☏zganzz18@gmail.com',buttons: [{ buttonId: `!emsce`, buttonText: { displayText: '</scbot>' }, type: 1 },{ buttonId: `!info`, buttonText: { displayText: '</info>' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: tamnel, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
